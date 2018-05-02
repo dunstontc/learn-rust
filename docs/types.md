@@ -1,9 +1,11 @@
 # Types
 
+
 ## Scalar Types
 
+### Booleans
 
-### Integer Types
+### Integers
 
 | Length |	Signed	| Unsigned |
 |:-------|:---------|:---------|
@@ -16,18 +18,6 @@
 ### Integer Literals
 
 ### Floating-Point Numbers
-
-### Boolean
-
-### Char
-
-```rust
-fn main() {
-   let c = 'c';
-   let lambda = 'λ';
-   let the_horns = '🤘';
-}
-```
 
 ### Numeric Operations
 
@@ -47,6 +37,16 @@ fn main() {
 
     // remainder
     let remainder = 43 % 5;
+}
+```
+
+### Characters
+
+```rust
+fn main() {
+   let c = 'c';
+   let lambda = 'λ';
+   let the_horns = '🤘';
 }
 ```
 
