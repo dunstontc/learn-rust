@@ -50,8 +50,11 @@ fn main() {
         Philosopher::new("Abraham Lincoln", 0, 4), // This is what prevents deadlock: one of our philosophers is left handed!
     ];
 
-    // The _ is a type placeholder.
-    let handles : Vec<_> = philosophers
+    // This creates an iterator that takes ownership of each philosopher.
+    // We need to do this to pass them to our threads.
+    // We take that iterator and call map on it,
+    // which takes a closure as an argument and calls that closure on each element in turn.
+    let handles : Vec<_> = philosophers // The _ is a type placeholder.
         .into_iter()
         .map(|p| {
             let table = table.clone();
