@@ -7,4 +7,3 @@ authors = ["Clay Dunston <dunstontc@gmail>"]
 name = "embed"
 path = "src/lib.rs"
 crate-type = ["dylib"]
-# crate-type = ["staticlib"]
