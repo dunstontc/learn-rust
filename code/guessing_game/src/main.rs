@@ -29,7 +29,7 @@ fn main() {
             // read_line returns an `io::Result` value. (an enum)
             // An enumeration is a type that can have a fixed set of values,
             // and those values are called the enum’s *variants*.
-            // For Result, the variants are `Ok` or `Err`.
+            // For io::Result, the variants are `Ok` or `Err`.
 
         // The parse method on strings parses a string into some kind of number.
         // Because this method can parse a variety of number types,
