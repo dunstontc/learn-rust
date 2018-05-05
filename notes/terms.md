@@ -1,6 +1,12 @@
 ## Terms
-- Stack
-- Heap
-- Generic
-- Traits
-- Lifetime
+- **arm**
+  - An *arm* consists of a pattern and the code that should be run if the value given to the beginning of the *match* expression fits that arm’s pattern.
+- stack
+- heap
+- generic
+- trait
+- lifetime
+- **associated function**
+  - Static Method
+- **shadowing**
+  - This feature is often used in similar situations in which you want to convert a value from one type to another type.
