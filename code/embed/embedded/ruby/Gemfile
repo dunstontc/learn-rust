@@ -1,0 +1,7 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+
+# Added at 2018-05-05 00:56:03 -0500 by clay:
+gem "ffi", "~> 1.9"
