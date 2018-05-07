@@ -34,7 +34,7 @@ fn main() {
         // The parse method on strings parses a string into some kind of number.
         // Because this method can parse a variety of number types,
         // we need to tell Rust the exact number type we want by using let guess: u32.
-        let guess : u32 = match guess.trim().parse() {
+        let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,       // `Ok` indicates the operation was successful, and inside the `Ok` variant is the successfully generated value.
             Err(_)  => continue,  // `Err` means the operation failed, and `Err` contains information about how or why the operation failed.
         };

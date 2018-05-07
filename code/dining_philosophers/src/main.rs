@@ -2,22 +2,22 @@ use std::{thread, time};
 use std::sync::{Mutex, Arc};
 
 struct Philosopher {
-    name  : String, // Generally speaking, working with a type which owns its data is easier than working with one that uses references.
-    left  : usize,
-    right : usize,
+    name : String, // Generally speaking, working with a type which owns its data is easier than working with one that uses references.
+    left : usize,
+    right: usize,
 }
 
 impl Philosopher {
     // This name, `new()`, isn’t anything special to Rust, but it is a convention for functions that create new instances of structs.
-    fn new(name : &str, left : usize, right : usize) -> Philosopher {
+    fn new(name: &str, left: usize, right: usize) -> Philosopher {
         Philosopher {
-            name  : name.to_string(),
-            left  : left,
-            right : right,
+            name : name.to_string(),
+            left : left,
+            right: right,
         }
     }
 
-    fn eat(&self, table : &Table) {
+    fn eat(&self, table: &Table) {
         let two_seconds = time::Duration::from_millis(2000);
 
         let _left = table.forks[self.left].lock().unwrap();
@@ -30,7 +30,7 @@ impl Philosopher {
 }
 
 struct Table {
-    forks : Vec<Mutex<()>>,
+    forks: Vec<Mutex<()>>,
 }
 
 fn main() {
@@ -54,7 +54,7 @@ fn main() {
     // We need to do this to pass them to our threads.
     // We take that iterator and call map on it,
     // which takes a closure as an argument and calls that closure on each element in turn.
-    let handles : Vec<_> = philosophers // The _ is a type placeholder.
+    let handles: Vec<_> = philosophers // The _ is a type placeholder.
         .into_iter()
         .map(|p| {
             let table = table.clone();
