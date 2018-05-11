@@ -1,6 +1,8 @@
 # miscellaneous
 
 ## Projects
+- [rust-lang-nursery/mdBook](https://github.com/rust-lang-nursery/mdBook)
+  - Create book from markdown files. Like Gitbook but implemented in Rust
 - [sharkdp/bat](https://github.com/sharkdp/bat)
   - A cat(1) clone with wings.
 - [simmons/tupm](https://github.com/simmons/tupm)
@@ -29,3 +31,5 @@
   - A rust binding for the zstd compression library.
 - [BurntSushi/same-file](https://github.com/BurntSushi/same-file)
   - Cross platform Rust library for checking whether two file paths are the same file.
+- [rust-lang/regex](https://github.com/rust-lang/regex)
+  - An implementation of regular expressions for Rust. This implementation uses finite automata and guarantees linear time matching on all inputs.

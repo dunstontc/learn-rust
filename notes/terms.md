@@ -17,6 +17,9 @@
   - *Statements* are instructions that perform some action and do not return a value.
 - **expression**
   - *Expressions* evaluate to a resulting value.
+- **tuple**
+  - A *tuple* is a general way of grouping together some number of other values with a variety of types into one compound type.
+- **tuple struct**
 - **generic**
 - **trait**
   - **Derivable Traits**

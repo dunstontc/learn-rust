@@ -45,7 +45,7 @@ fn main() {
 ```rust
 fn main() {
    let c = 'c';
-   let lambda = 'λ';
+   let lambda = '3';
    let the_horns = '🤘';
 }
 ```
@@ -53,5 +53,6 @@ fn main() {
 ## Compound Types
 
 ### Tuples 
+- A tuple is a general way of grouping together some number of other values with a variety of types into one compound type.
 
 ### Arrays
