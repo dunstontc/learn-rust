@@ -1,5 +1,15 @@
 # [Enums and Pattern Matching](https://doc.rust-lang.org/book/second-edition/ch06-00-enums.html)
 
+<!-- TOC -->
+
+  - [Enums](#enums)
+  - [~~Null~~ Optional](#null-optional)
+  - [Matching with `Option<T>`](#matching-with-optiont)
+  - [Concise Control Flow with if let](#concise-control-flow-with-if-let)
+
+<!-- /TOC -->
+
+## Enums
 Enums allow you to define a type by enumerating its possible values.
 
 ```rust
@@ -82,6 +92,7 @@ In his 2009 presentation “Null References: The Billion Dollar Mistake,” Tony
 > I call it my billion-dollar mistake. At that time, I was designing the first comprehensive type system for references in an object-oriented language. My goal was to ensure that all use of references should be absolutely safe, with checking performed automatically by the compiler. But I couldn’t resist the temptation to put in a null reference, simply because it was so easy to implement. This has led to innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years.
 
 ```rust
+// Rust has no null, but it does have Option<T>
 enum Option<T> {
     Some(T),
     None,
@@ -90,7 +101,31 @@ enum Option<T> {
 
 ## Matching with `Option<T>`
 
+```rust
+fn plus_one(x: Option<i32>) -> Option<i32> {
+    match x {
+        None => None,
+        Some(i) => Some(i + 1),
+    }
+}
+
+let five = Some(5);
+let six = plus_one(five);
+let none = plus_one(None);
 
 
+let some_u8_value = 0u8;
+match some_u8_value {
+    1 => println!("one"),
+    3 => println!("three"),
+    5 => println!("five"),
+    7 => println!("seven"),
+    _ => (),
+}
+```
+
+## Concise Control Flow with if let
+
+The `if let` syntax lets you combine `if` and `let` into a less verbose way to handle values that match one pattern while ignoring the rest.
 
 
