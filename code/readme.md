@@ -8,9 +8,9 @@
 4. Understanding Ownership
 5. Using Structs to Structure Related Data
 6. Enums & Pattern Matching
-  - `match`
-  - `Option<T>`
-  - `if let`
+    - `match`
+    - `Option<T>`
+    - `if let`
 7. Modules
 8. Common Collections
 9. Error Handling

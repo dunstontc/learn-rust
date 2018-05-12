@@ -33,3 +33,9 @@
   - Cross platform Rust library for checking whether two file paths are the same file.
 - [rust-lang/regex](https://github.com/rust-lang/regex)
   - An implementation of regular expressions for Rust. This implementation uses finite automata and guarantees linear time matching on all inputs.
+- [ogham/rust-pad](https://github.com/ogham/rust-pad)
+  - Runtime string padding library for Rust.
+- [ogham/rust-ansi-term](https://github.com/ogham/rust-ansi-term)
+  - Rust library for ANSI terminal colours and styles (bold, underline)
+- [mackwic/colored](https://github.com/mackwic/colored)
+  - (Rust) Coloring terminal so simple you already know how to do it !
