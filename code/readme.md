@@ -12,6 +12,9 @@
     - `Option<T>`
     - `if let`
 7. Modules
+    - `pub`
+    - `use everything::*;`
+    - `use super::thing;`
 8. Common Collections
 9. Error Handling
 10. Generic Types, Traits, & Lifetimes
