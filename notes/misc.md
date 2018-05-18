@@ -21,6 +21,9 @@
   - A full featured, fast Command Line Argument Parser for Rust.
 
 ## Libs
+- [serde-rs/serde](https://github.com/serde-rs/serde)
+  - Serde is a framework for serializing and deserializing Rust data structures efficiently and generically.
+  - The Serde ecosystem consists of data structures that know how to serialize and deserialize themselves along with data formats that know how to serialize and deserialize other things. Serde provides the layer by which these two groups interact with each other, allowing any supported data structure to be serialized and deserialized using any supported data format.
 - [gyscos/Cursive](https://github.com/gyscos/Cursive)
   - A Text User Interface library for the Rust programming language.
 - [jeaye/ncurses-rs](https://github.com/jeaye/ncurses-rs)
@@ -39,3 +42,10 @@
   - Rust library for ANSI terminal colours and styles (bold, underline)
 - [mackwic/colored](https://github.com/mackwic/colored)
   - (Rust) Coloring terminal so simple you already know how to do it !
+
+## Other
+
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+- [ctjhoa/rust-learning](https://github.com/ctjhoa/rust-learning)
+- [rust-unofficial/awesome-rust](https://github.com/rust-unofficial/awesome-rust)
+- [rust-unofficial/patterns](https://github.com/rust-unofficial/patterns)
