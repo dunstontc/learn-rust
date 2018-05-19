@@ -1,5 +1,3 @@
-# Rust
-
 <div align="center">
   <a href="https://github.com/rust-lang/rust">
     <img src="http://www.rustacean.net/assets/rustacean-flat-happy.png" alt="Ferris" width="50%" title="Ferris the crab">
