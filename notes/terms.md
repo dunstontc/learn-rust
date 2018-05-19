@@ -1,34 +1,36 @@
 ## Terms
-- The Stack & the heap
+- Memory
   - **stack**
     - LIFO, speedy, quality Memory storage.
   - **heap**
     - Unordered, general, bulk Memory storage.
+  - **data race**
+    - A *data race* is similar to a race condition and happens when these three behaviors occur:
+      - 1. Two or more pointers access the same data at the same time.
+      - 2. At least one of the pointers is being used to write to the data.
+      - 3. There’s no mechanism being used to synchronize access to the data.
+- Functions
+  - **statement**
+    - *Statements* are instructions that perform some action and do not return a value.
+  - **expression**
+    - *Expressions* evaluate to a resulting value.
+  - **associated function**
+    - Static Method
+- OOP
+  - **bounded parametric polymorphism**
+  - **generic**
+  - **trait**
+    - **Derivable Traits**
+
+
 - **arm**
   - An *arm* consists of a pattern and the code that should be run if the value given to the beginning of the *match* expression fits that arm’s pattern.
-- **associated function**
-  - Static Method
 - **borrowing**
   - We call having references as function parameters borrowing. 
   - As in real life, if a person owns something, you can borrow it from them. When you’re done, you have to give it back.
+- **lifetime**
 - **shadowing**
   - This feature is often used in similar situations in which you want to convert a value from one type to another type.
-- **statement**
-  - *Statements* are instructions that perform some action and do not return a value.
-- **expression**
-  - *Expressions* evaluate to a resulting value.
 - **tuple**
   - A *tuple* is a general way of grouping together some number of other values with a variety of types into one compound type.
 - **tuple struct**
-- **generic**
-- **trait**
-  - **Derivable Traits**
-- **lifetime**
-- **data race**
-  - A *data race* is similar to a race condition and happens when these three behaviors occur:
-    - 1. Two or more pointers access the same data at the same time.
-    - 2. At least one of the pointers is being used to write to the data.
-    - 3. There’s no mechanism being used to synchronize access to the data.
-- OOP
-  **bounded parametric polymorphism**
-

@@ -3,7 +3,7 @@
 <div align="center">
   <a href="https://github.com/rust-lang/rust">
     <img src="http://www.rustacean.net/assets/rustacean-flat-happy.png" alt="Ferris" width="50%" title="Ferris the crab">
-    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1200px-Rust_programming_language_black_logo.svg.png" alt="Ferris" width="50%" style="margin-left:25%;"> -->
+    <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1200px-Rust_programming_language_black_logo.svg.png" alt="rust" title="rust" width="50%"> -->
   </a>
 </div>
 

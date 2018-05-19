@@ -29,11 +29,17 @@ v.push(5);
 v.push(6);
 v.push(7);
 v.push(8);
-
 ```
 
+### Creating a New Vector
+- `Vec::new()`
+- `vec![...]`
 ### Updating a Vector
+- `v.push(x)`
 ### Reading Elements of Vectors
+- `&v[n]`
+- `v.get(n)`
 ### Iterating over the Values in a Vector
+
 ### Using an Enum to Store Multiple Types
 
