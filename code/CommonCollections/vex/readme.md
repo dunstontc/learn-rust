@@ -34,12 +34,39 @@ v.push(8);
 ### Creating a New Vector
 - `Vec::new()`
 - `vec![...]`
+
 ### Updating a Vector
 - `v.push(x)`
+
 ### Reading Elements of Vectors
 - `&v[n]`
 - `v.get(n)`
+
 ### Iterating over the Values in a Vector
+```rust
+let u = vec![100, 32, 57];
+for i in &u {
+    println!("{}", i);
+}
+
+let mut m = vec![100, 32, 57];
+for i in &mut m {
+    *i += 50;
+}
+```
 
 ### Using an Enum to Store Multiple Types
+```rust
+enum SpreadsheetCell {
+    Int(i32),
+    Float(f64),
+    Text(String),
+}
+
+let row = vec![
+    SpreadsheetCell::Int(3),
+    SpreadsheetCell::Text(String::from("blue")),
+    SpreadsheetCell::Float(10.12),
+];
+```
 
