@@ -1,5 +1,5 @@
-extern crate alphabet;
+extern crate tcd;
 
 fn main() {
-    alphabet::the_alphabet();
+    tcd::alphabet::the_alphabet();
 }
