@@ -1,39 +1,17 @@
 # [Common Collections](https://doc.rust-lang.org/book/second-edition/ch08-00-common-collections.html)
 
-
 - A *vector* allows you to store a variable number of values next to each other in memory.
 - A *string* is a collection of characters. 
 - A *hash map* allows you to associate a value with a particular key. It’s a particular implementation of the more general data structure called a *map*.
 - [std::collections](https://doc.rust-lang.org/std/collections/index.html)
 
 
-## Vectors
-- Vectors allow you to store more than one value in a single data structure that puts all the values next to each other in memory. 
-- Vectors are implemented using generics.
-- The `Vec<T>` type provided by the standard library can hold any type, and when a specific vector holds a specific type, the type is specified within angle brackets.
-- Like any other struct, a vector is freed when it goes out of scope.
-- As with any variable, if we want to be able to change its value, we need to make it mutable using the `mut` keyword.
+## Summary
 
-```rust
-// To create a new, empty vector, we can call the `Vec::new()` function.
-let v: Vec<i32> = Vec::new();
+> Vectors, strings, and hash maps will provide a large amount of functionality necessary in programs when you need to store, access, and modify data. Here are some exercises you should now be equipped to solve:
 
-// It’s more common to create a `Vec<T>` that has initial values, and Rust provides the `vec!` macro for convenience. 
-{
-    let v = vec![1, 2, 3, 4];
-} // <- v goes out of scope and is freed here
+- Given a list of integers, use a vector and return the mean (the average value), median (when sorted, the value in the middle position), and mode (the value that occurs most often; a hash map will be helpful here) of the list.
+- Convert strings to pig latin. The first consonant of each word is moved to the end of the word and “ay” is added, so “first” becomes “irst-fay.” Words that start with a vowel have “hay” added to the end instead (“apple” becomes “apple-hay”). Keep in mind the details about UTF-8 encoding!
+- Using a hash map and vectors, create a text interface to allow a user to add employee names to a department in a company. For example, “Add Sally to Engineering” or “Add Amir to Sales.” Then let the user retrieve a list of all people in a department or all people in the company by department, sorted alphabetically.
 
-let mut v = Vec::new();
-
-v.push(5);
-v.push(6);
-v.push(7);
-v.push(8);
-
-```
-
-### Updating a Vector
-### Reading Elements of Vectors
-### Iterating over the Values in a Vector
-### Using an Enum to Store Multiple Types
-
+The standard library API documentation describes methods that vectors, strings, and hash maps have that will be helpful for these exercises!
