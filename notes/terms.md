@@ -9,6 +9,9 @@
       - 1. Two or more pointers access the same data at the same time.
       - 2. At least one of the pointers is being used to write to the data.
       - 3. There’s no mechanism being used to synchronize access to the data.
+  - **reference**
+  - **deref coercion**
+  - **coerce**
 - Functions
   - **statement**
     - *Statements* are instructions that perform some action and do not return a value.
@@ -34,3 +37,4 @@
 - **tuple**
   - A *tuple* is a general way of grouping together some number of other values with a variety of types into one compound type.
 - **tuple struct**
+- **hashing function**
