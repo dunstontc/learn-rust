@@ -33,6 +33,3 @@
 19. Advanced Features
 20. Building a Multithreaded Web Server
 
-
-## TODO
-- [ ] Ranges

@@ -11,7 +11,7 @@
       - 3. There’s no mechanism being used to synchronize access to the data.
   - **reference**
   - **deref coercion**
-  - **coerce**
+  - **unwinding**
 - Functions
   - **statement**
     - *Statements* are instructions that perform some action and do not return a value.
@@ -24,17 +24,22 @@
   - **generic**
   - **trait**
     - **Derivable Traits**
+- Matches
+  - **arm**
+    - An *arm* consists of a pattern and the code that should be run if the value given to the beginning of the *match* expression fits that arm’s pattern.
+  - **match guard**
+    - an extra condition on a match arm that further refines the arm’s pattern
+    - ex: `if error.kind() == ErrorKind::NotFound`
+- Misc
+  - **coerce**
+  - **borrowing**
+    - We call having references as function parameters borrowing. 
+    - As in real life, if a person owns something, you can borrow it from them. When you’re done, you have to give it back.
+  - **lifetime**
+  - **shadowing**
+    - This feature is often used in similar situations in which you want to convert a value from one type to another type.
+  - **tuple**
+    - A *tuple* is a general way of grouping together some number of other values with a variety of types into one compound type.
+  - **tuple struct**
+  - **hashing function**
 
-
-- **arm**
-  - An *arm* consists of a pattern and the code that should be run if the value given to the beginning of the *match* expression fits that arm’s pattern.
-- **borrowing**
-  - We call having references as function parameters borrowing. 
-  - As in real life, if a person owns something, you can borrow it from them. When you’re done, you have to give it back.
-- **lifetime**
-- **shadowing**
-  - This feature is often used in similar situations in which you want to convert a value from one type to another type.
-- **tuple**
-  - A *tuple* is a general way of grouping together some number of other values with a variety of types into one compound type.
-- **tuple struct**
-- **hashing function**
