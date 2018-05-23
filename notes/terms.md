@@ -41,5 +41,5 @@
   - **tuple**
     - A *tuple* is a general way of grouping together some number of other values with a variety of types into one compound type.
   - **tuple struct**
-  - **hashing function**
+  - [**hashing function**](https://doc.rust-lang.org/book/second-edition/ch08-03-hash-maps.html#hashing-functions)
 
