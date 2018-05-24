@@ -21,8 +21,10 @@
     - Static Method
 - OOP
   - **bounded parametric polymorphism**
-  - **generic**
+  - **generics**
   - **trait**
+    - A *trait* tells the Rust compiler about functionality a particular type has and can share with other types.
+    - *Traits* are similar to a feature often called *interfaces* in other languages, although with some differences.
     - **Derivable Traits**
 - Matches
   - **arm**
@@ -31,7 +33,6 @@
     - an extra condition on a match arm that further refines the arm’s pattern
     - ex: `if error.kind() == ErrorKind::NotFound`
 - Misc
-  - **coerce**
   - **borrowing**
     - We call having references as function parameters borrowing. 
     - As in real life, if a person owns something, you can borrow it from them. When you’re done, you have to give it back.
@@ -42,4 +43,7 @@
     - A *tuple* is a general way of grouping together some number of other values with a variety of types into one compound type.
   - **tuple struct**
   - [**hashing function**](https://doc.rust-lang.org/book/second-edition/ch08-03-hash-maps.html#hashing-functions)
+  - **Monomorphization**
+    - *Monomorphization* is the process of turning generic code into specific code by filling in the concrete types that are used when compiled. 
+    - Rust uses *monomorphization* to implement *generics* in such a way that your code doesn’t run any slower using generic types than it would with concrete types.
 

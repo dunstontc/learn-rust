@@ -12,4 +12,7 @@
 .projectile
 */tags
 
+**/target
+**/*.rs.bk
+
 
