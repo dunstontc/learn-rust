@@ -26,6 +26,7 @@
     - A *trait* tells the Rust compiler about functionality a particular type has and can share with other types.
     - *Traits* are similar to a feature often called *interfaces* in other languages, although with some differences.
     - **Derivable Traits**
+    - **trait bounds**
 - Matches
   - **arm**
     - An *arm* consists of a pattern and the code that should be run if the value given to the beginning of the *match* expression fits that arm’s pattern.
