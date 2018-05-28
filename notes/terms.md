@@ -1,4 +1,5 @@
-## Terms
+# Terms
+
 - Memory
   - **stack**
     - LIFO, speedy, quality Memory storage.
@@ -10,6 +11,11 @@
       - 2. At least one of the pointers is being used to write to the data.
       - 3. There’s no mechanism being used to synchronize access to the data.
   - **reference**
+  - **lifetime**
+    - Every reference in Rust has a *lifetime*, which is the scope for which that reference is valid. 
+    - Lifetimes on function or method parameters are called *input lifetimes*, and lifetimes on return values are called *output lifetimes*.
+    - **Borrow Checker**
+    - **lifetime elision rules**
   - **deref coercion**
   - **unwinding**
 - Functions
@@ -19,7 +25,7 @@
     - *Expressions* evaluate to a resulting value.
   - **associated function**
     - Static Method
-- OOP
+- OOP (more or less)
   - **bounded parametric polymorphism**
   - **generics**
   - **trait**
@@ -37,7 +43,6 @@
   - **borrowing**
     - We call having references as function parameters borrowing. 
     - As in real life, if a person owns something, you can borrow it from them. When you’re done, you have to give it back.
-  - **lifetime**
   - **shadowing**
     - This feature is often used in similar situations in which you want to convert a value from one type to another type.
   - **tuple**

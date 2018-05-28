@@ -21,6 +21,8 @@
     - `Vec<T>`
     - `push()` & `pop()`
 9. Error Handling
+    - `panic!`
+    - `Result<T, E>`
 10. Generic Types, Traits, & Lifetimes
 11. Testing
 12. Building a Command Line Program
