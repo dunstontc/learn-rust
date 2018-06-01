@@ -1,0 +1,7 @@
+[package]
+name = "minigrep"
+version = "0.1.0"
+authors = ["Clay Dunston <dunstontc@gmail>"]
+
+[dependencies]
+ansi_term = "0.11"
