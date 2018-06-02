@@ -42,3 +42,17 @@ Handling the error if run returns an error
 
 #### Improving the Error Message
 
+## Developing the Library’s Functionality with Test-Driven Development
+
+- Iterate through each line of the contents.
+- Check whether the line contains our query string.
+- If it does, add it to the list of values we’re returning.
+- If it doesn’t, do nothing.
+- Return the list of results that match.
+
+1. Write a test that fails and run it to make sure it fails for the reason you expect.
+2. Write or modify just enough code to make the new test pass.
+3. Refactor the code you just added or changed and make sure the tests continue to pass.
+4. Repeat from step 1!
+
+## Working with Environment Variables

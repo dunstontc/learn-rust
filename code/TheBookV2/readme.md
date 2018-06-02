@@ -24,7 +24,8 @@
     - `panic!`
     - `Result<T, E>`
 10. Generic Types, Traits, & Lifetimes
-    - *Elision Rules* 
+    - *trait bounds*
+    - *elision rules* 
 11. Testing
 12. Building a Command Line Program
 13. Functional Language Features: Iterators & Closures
