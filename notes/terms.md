@@ -30,6 +30,12 @@
     - *Expressions* evaluate to a resulting value.
   - **associated function**
     - Static Method
+### Functional Programming
+  - Programming in a functional style often includes using functions as values by passing them in arguments, returning them from other functions, assigning them to variables for later execution, and so forth.
+  - **iterator**
+    -  A way of processing a series of elements.
+  - **closure**
+    - A function-like construct you can store in a variable.
 ## OOP (more or less)
   - **bounded parametric polymorphism**
     - TODO
@@ -49,7 +55,6 @@
     - an extra condition on a match arm that further refines the arm’s pattern
     - ex: `if error.kind() == ErrorKind::NotFound`
 ## Misc
-  - **iterator**
   - **borrowing**
     - We call having references as function parameters borrowing. 
     - As in real life, if a person owns something, you can borrow it from them. When you’re done, you have to give it back.

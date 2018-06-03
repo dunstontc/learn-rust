@@ -1,0 +1,18 @@
+#   ┌─┐┬┌┬┐┬┌─┐┌┐┌┌─┐┬─┐┌─┐
+#   │ ┬│ │ ││ ┬││││ │├┬┘├┤
+#  o└─┘┴ ┴ ┴└─┘┘└┘└─┘┴└─└─┘
+
+# Mac files
+.DS_store
+
+# Misc.
+!.gitkeep
+.idea
+.vscode
+.projectile
+*/tags
+
+**/target
+**/*.rs.bk
+
+

@@ -28,6 +28,7 @@
     - *elision rules* 
 11. Testing
 12. Building a Command Line Program
+    - `eprintln!`
 13. Functional Language Features: Iterators & Closures
 14. More about Cargo & Crates.io
 15. Smart Pointers
