@@ -2,26 +2,12 @@
 <html>
 
 <head>
-  <script>
-    const supported = (() => {
-      try {
-        if (typeof WebAssembly === "object"
-          && typeof WebAssembly.instantiate === "function") {
-          const module = new WebAssembly.Module(Uint8Array.of(0x0, 0x61, 0x73, 0x6d, 0x01, 0x00, 0x00, 0x00));
-          if (module instanceof WebAssembly.Module) {
-            return new WebAssembly.Instance(module) instanceof WebAssembly.Instance;
-          }
-        }
-      } catch (e) {}
-      return false;
-    })();
-    console.log(supported ? "WebAssembly is supported" : "WebAssembly is not supported");
-  </script>
+  <script src="wasm_test.js"></script>
   <script>
       fetch('hello_wasm.gc.wasm')
-        .then(r => r.arrayBuffer())
-        .then(r => WebAssembly.instantiate(r))
-        .then(wasm_module => {
+        .then((r) => r.arrayBuffer())
+        .then((r) => WebAssembly.instantiate(r))
+        .then((wasm_module) => {
           alert(`2 + 1 = ${wasm_module.instance.exports.add_one(2)}`);
         });
   </script>
